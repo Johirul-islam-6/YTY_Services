@@ -46,3 +46,94 @@
     display: block;
     object-fit: cover;
 }
+
+// ---------navbar Design ---------
+
+.navbar {
+
+    background-color: #00000007;
+    position: relative;
+    z-index: 30;
+
+    .container-fluid {
+
+
+
+        a {
+            color: #fff;
+            font-size: 1rem;
+
+            .logo {
+                color: #33ebd5;
+                font-weight: 900;
+                font-family: 'Anek Gujarati', sans-serif;
+                font-size: 1.8rem;
+                // font-family: 'PT Sans Narrow', sans-serif;
+                // font-family: 'Poppins', sans-serif;
+            }
+        }
+
+        .fa-bars {
+            color: #fff;
+        }
+    }
+
+    .navbar-collapse {
+
+
+        .navbar-nav {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+
+
+                a {
+                    color: #ffffff;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    font-family: 'Poppins', sans-serif;
+
+
+                    &:hover {
+                        content: "";
+                        color: #33ebd5;
+                    }
+
+                }
+
+
+                .dropdown-menu {
+                    background-color: #00000079;
+
+                    li :hover {
+                        background-color: #0303038a;
+                    }
+                }
+
+
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 200px) {
+    .navbar-collapse {
+        background-color: #00000079;
+        padding: 1rem 0;
+        position: relative;
+        z-index: 40 !important;
+    }
+
+    .logo {
+        color: #33ebd5;
+        font-weight: 900;
+        font-family: 'Anek Gujarati', sans-serif;
+        font-size: 1rem !important;
+        // font-family: 'PT Sans Narrow', sans-serif;
+        // font-family: 'Poppins', sans-serif;
+    }
+}

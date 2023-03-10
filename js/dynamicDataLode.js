@@ -40,11 +40,7 @@ const imageData = (image, name) => {
     newdiv.innerHTML = `
      <img class="w-100 h-100"
             src=${image} alt="">
-            <h1 id="tour_text" class="position-absolute text-center top-0 pt-5 d-flex tourText">An Unforgettable Tour
-                Across
-                <br>
-                World Wide
-            </h1>
+            
     `
 
 }

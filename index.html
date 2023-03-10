@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour World Wide</title>
 
-
+    <!-- ------font awsome cdn link --------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ---------bootstrap 5 cdn link ------------------ -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
@@ -15,10 +19,53 @@
 </head>
 
 <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg position-absolute w-100 top-0 fixed-top px-lg-5 py-lg-3 py-1">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"><Span class="logo">TRAVLING</Span> tour</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Country
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Bangladesh</a></li>
+                                <li><a class="dropdown-item" href="#">India</a></li>
+                                <li><a class="dropdown-item" href="#">Sir Lanka</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <div id="main_div" class="main_div">
+
         <!-- ------display image start ---------- -->
         <div id="divImage"
             class="w-100 h-100 position-relative d-flex justify-content-center align-items-center img-gradient">
+
             <img class="w-100 h-100" loading="lazy" src="https://wallpaperaccess.com/full/1386038.jpg" alt="">
 
             <h1 id="tour_text" class="position-absolute text-center top-0 pt-5 d-flex tourText">An Unforgettable Tour
@@ -40,7 +87,63 @@
         <!-- ---------------- image scrolling div end-------------- -->
     </div>
 
+    <!-- ----------discover your fastival Memory ----------- -->
+
+    <section class="section02">
+        <h2 class="text-center pt-5 pb-1">Capture your favorite <br> travel memories</h2>
+        <div class="discover pt-3">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
+                space-between="30" free-mode="true">
+                <swiper-slide>
+                    <img class="w-100"
+                        src="https://www.realgap.co.uk/tpl/lib/img/private/media/copy-of-copy-of-thailand2019nw-may-002.jpeg"
+                        alt="">
+                </swiper-slide>
+                <swiper-slide class="mt-5">
+                    <img class="w-100"
+                        src="https://img.freepik.com/free-photo/vertical-shot-woman-walking-down-stairs-with-handbag-beach_181624-15043.jpg?w=2000"
+                        alt="">
+                </swiper-slide>
+                <swiper-slide class="">
+                    <img class="w-100"
+                        src="https://img.freepik.com/free-photo/fashion-portrait-young-woman-white-top-pants-vacation-sailing-thai-wooden-boat-travel-concept-female-khao-sok-national-park_343596-1243.jpg"
+                        alt="">
+                </swiper-slide>
+                <swiper-slide class="mt-5">
+                    <img class="w-100"
+                        src="https://glaucoma.org/wp-content/uploads/2021/10/couple-traveling-airport.jpg" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img class="w-100"
+                        src="https://www.realgap.co.uk/tpl/lib/img/private/media/copy-of-copy-of-thailand2019nw-may-002.jpeg"
+                        alt="">
+                </swiper-slide>
+                <swiper-slide class="mt-5">
+                    <img class="w-100"
+                        src="https://img.freepik.com/free-photo/vertical-shot-woman-walking-down-stairs-with-handbag-beach_181624-15043.jpg?w=2000"
+                        alt="">
+                </swiper-slide>
+                <swiper-slide class="">
+                    <img class="w-100"
+                        src="https://img.freepik.com/free-photo/fashion-portrait-young-woman-white-top-pants-vacation-sailing-thai-wooden-boat-travel-concept-female-khao-sok-national-park_343596-1243.jpg"
+                        alt="">
+                </swiper-slide>
+                <swiper-slide class="mt-5">
+                    <img class="w-100"
+                        src="https://i.insider.com/5f5a895be6ff30001d4e82b3?width=600&format=jpeg&auto=webp" alt="">
+                </swiper-slide>
+
+            </swiper-container>
+
+        </div>
+    </section>
+
+
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 <script src="js/dynamicDataLode.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
