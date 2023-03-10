@@ -18,7 +18,8 @@ const displayImage = (images) => {
           <swiper-slide id="wiper_slide" onclick="imageData('${image?.image}')">
                     <img id = "singelImage" class= "" src= ${image?.image}
                      loading="lazy"  alt="">
-                    <h2 class="position-absolute text-white">${image?.name}</h2>
+                    <h2 class="position-absolute text-white animation_h3">${image?.name}</h2>
+
                 </swiper-slide>
 
         `
@@ -40,6 +41,22 @@ const imageData = (image, name) => {
     newdiv.innerHTML = `
      <img class="w-100 h-100"
             src=${image} alt="">
+               <main class="Text_container position-absolute">
+
+                <section class="animation ">
+                    <div class="first">
+                        <div className='animation_p'>Travel makes people's </div>
+                    </div>
+                    <div class="second">
+                        <div className='animation_p'>lives beautiful and</div>
+                    </div>
+                    <div class="third">
+                        <div className='animation_p'>inspires them to live</div>
+                    </div>
+
+                </section>
+
+            </main>
             
     `
 

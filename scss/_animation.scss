@@ -56,7 +56,7 @@
 
 }
 
-// -------- memorys of animation card-----------
+// -------- memorys of animation card image-----------
 
 .discover {
     display: flex;
@@ -137,4 +137,127 @@
         }
     }
 
+}
+
+// ======text animation =======
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+.animation_h3 {
+    text-shadow: 0 0 7px rgba(142, 141, 141, 0.3), 0 0 3px rgba(0, 0, 0, 0.699);
+    font-family: 'Roboto';
+    color: #fdffff !important;
+}
+
+.Text_container {
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    z-index: 50;
+    bottom: 26rem;
+
+}
+
+.text-droping {
+    font-size: 15px;
+}
+
+.animation {
+    height: 60px;
+    overflow: hidden;
+    margin-left: 0rem;
+}
+
+.animation>div>div {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.animation div:first-child {
+    animation: text-animation 10s infinite;
+}
+
+.first div {
+    text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+    font-family: 'Roboto';
+    text-align: center;
+
+
+}
+
+.second div {
+    text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+    font-family: 'Roboto';
+    text-align: center;
+    background-color: #02957f;
+}
+
+.third div {
+    text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -5.62rem;
+    }
+
+    30% {
+        margin-top: -5.62rem;
+    }
+
+    40% {
+        margin-top: -11.24rem;
+    }
+
+    60% {
+        margin-top: -11.24rem;
+    }
+
+    70% {
+        margin-top: -5.62rem;
+    }
+
+    80% {
+        margin-top: -5.62rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width : 250px) and (max-width :480px) {
+    .Text_container {
+        color: #e5e5e5;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        z-index: 50;
+
+    }
+
+    .animation_h3 {
+        text-shadow: 0 0 7px rgba(142, 141, 141, 0.3), 0 0 3px rgba(0, 0, 0, 0.699);
+        font-family: 'Roboto';
+        color: #fdffff !important;
+        font-size: 18px !important;
+    }
 }

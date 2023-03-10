@@ -6,6 +6,7 @@ font-family: 'Kanit', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif; */
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
 .scroll {
   position: relative;
   height: 100%;
@@ -116,6 +117,106 @@ font-family: 'PT Sans Narrow', sans-serif; */
     width: 100% !important;
   }
 }
+.animation_h3 {
+  text-shadow: 0 0 7px rgba(142, 141, 141, 0.3), 0 0 3px rgba(0, 0, 0, 0.699);
+  font-family: "Roboto";
+  color: #fdffff !important;
+}
+
+.Text_container {
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  z-index: 50;
+  bottom: 26rem;
+}
+
+.text-droping {
+  font-size: 15px;
+}
+
+.animation {
+  height: 60px;
+  overflow: hidden;
+  margin-left: 0rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height: 2.81rem;
+  margin-bottom: 2.81rem;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 10s infinite;
+}
+
+.first div {
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3);
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.second div {
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3);
+  font-family: "Roboto";
+  text-align: center;
+  background-color: #02957f;
+}
+
+.third div {
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3);
+  font-family: "Roboto";
+  text-align: center;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% {
+    margin-top: -11.24rem;
+  }
+  70% {
+    margin-top: -5.62rem;
+  }
+  80% {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 480px) {
+  .Text_container {
+    color: #e5e5e5;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    z-index: 50;
+  }
+  .animation_h3 {
+    text-shadow: 0 0 7px rgba(142, 141, 141, 0.3), 0 0 3px rgba(0, 0, 0, 0.699);
+    font-family: "Roboto";
+    color: #fdffff !important;
+    font-size: 18px !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -205,6 +306,10 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 @media screen and (max-width: 900px) and (min-width: 200px) {
+  .navbar {
+    padding-bottom: 1.5rem !important;
+    background-color: rgba(0, 0, 0, 0.1058823529);
+  }
   .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.4745098039);
     padding: 1rem 0;
@@ -215,7 +320,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
     color: #33ebd5;
     font-weight: 900;
     font-family: "Anek Gujarati", sans-serif;
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
   }
 }
 .section02 {
@@ -275,6 +380,13 @@ font-family: 'PT Sans Narrow', sans-serif; */
   object-fit: cover;
 }
 
+Footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: black;
+  color: #fff;
+}
+
 .login-box {
   position: absolute;
   top: 50%;
@@ -287,6 +399,14 @@ font-family: 'PT Sans Narrow', sans-serif; */
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   z-index: 60;
+}
+
+.text-center {
+  font-size: 22px;
+}
+
+.form-size {
+  width: 30vw;
 }
 
 .login-box h2 {
@@ -381,7 +501,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
   height: 100%;
   background: linear-gradient(180deg, transparent, #03e9f4);
   animation: btn-anim2 1s linear infinite;
-  animation-delay: 0.25s;
+  animation-delay: 1s;
 }
 
 @keyframes btn-anim2 {
@@ -399,7 +519,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
   height: 2px;
   background: linear-gradient(270deg, transparent, #03e9f4);
   animation: btn-anim3 1s linear infinite;
-  animation-delay: 0.5s;
+  animation-delay: 2s;
 }
 
 @keyframes btn-anim3 {

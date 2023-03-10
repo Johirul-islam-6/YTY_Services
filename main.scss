@@ -12,6 +12,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 @import "scss/discover";
 @import "scss/variable";
 @import "scss/travelingFrom";
+@import "scss/footer";
 
 .login-box {
     position: absolute;
@@ -25,6 +26,14 @@ font-family: 'PT Sans Narrow', sans-serif; */
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
     z-index: 60;
+}
+
+.text-center {
+    font-size: 22px;
+}
+
+.form-size {
+    width: 30vw;
 }
 
 .login-box h2 {
@@ -125,7 +134,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
     height: 100%;
     background: linear-gradient(180deg, transparent, #03e9f4);
     animation: btn-anim2 1s linear infinite;
-    animation-delay: .25s
+    animation-delay: 1s
 }
 
 @keyframes btn-anim2 {
@@ -146,7 +155,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
     height: 2px;
     background: linear-gradient(270deg, transparent, #03e9f4);
     animation: btn-anim3 1s linear infinite;
-    animation-delay: .5s
+    animation-delay: 2s
 }
 
 @keyframes btn-anim3 {
