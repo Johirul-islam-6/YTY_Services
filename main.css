@@ -328,7 +328,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 .section02 {
   width: 100vw;
   height: 120vh;
-  background-image: url("/image/baground_black.webp");
+  background-image: url("https://i.ibb.co/7zRzpfR/baground-black.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -374,7 +374,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
      object-fit: cover;
   height: 100vh;
   width: 100vw;
-  background-image: url("/image/from.jpg");
+  background-image: url("https://i.ibb.co/sj5rgWq/from.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -679,10 +679,13 @@ footer .copyright {
 }
 .Explore {
   width: 100vw;
-  height: 80vh;
+  height: auto;
 }
 .Explore .row {
   background-color: rgb(231, 231, 231);
+}
+.Explore .row .btn {
+  background-color: #00838d;
 }
 
 .login-box {

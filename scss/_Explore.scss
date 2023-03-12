@@ -1,8 +1,17 @@
 .Explore {
     width: 100vw;
-    height: 80vh;
+    height: auto;
+
 
     .row {
         background-color: rgb(231, 231, 231);
+
+        .btn {
+            background-color: #00838d;
+        }
+
+
     }
+
+
 }
