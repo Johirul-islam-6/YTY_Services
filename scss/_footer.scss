@@ -1,6 +1,41 @@
-Footer {
-    width: 100vw;
-    height: 40vh;
-    background-color: black;
-    color: #fff;
+footer {
+    background: #212529;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+
+    .logo {
+        color: #33ebd5;
+        font-weight: 900;
+        // font-family: 'Anek Gujarati', sans-serif;
+        font-size: 1.5rem;
+        font-family: 'Righteous', cursive;
+        // font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    a:hover,
+    a:focus {
+        text-decoration: none;
+    }
+
+    .form-control {
+        background: #212529;
+        border-color: #545454;
+    }
+
+    .form-control:focus {
+        background: #212529;
+    }
+
+    h5 {
+        font-family: 'Righteous', cursive;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+
 }

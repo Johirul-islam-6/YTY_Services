@@ -73,11 +73,11 @@
     swiper-slide {
         text-align: center;
         font-size: 18px;
-
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 10%;
+        width: 25% !important;
     }
 
     swiper-slide img {
@@ -126,7 +126,7 @@
         height: 90vh !important;
 
         h2 {
-            font-size: 1rem !important;
+            font-size: 1.3rem !important;
             padding: 2rem 0 !important;
         }
     }
