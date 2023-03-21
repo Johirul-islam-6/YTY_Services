@@ -13,7 +13,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 
-    <!-- fave icon -->
+    <!-- fave icon image -->
     <link rel="shortcut icon" href="image/baground_black.webp" type="image/x-icon" />
 
     <!-- ------font awsome cdn link --------- -->
@@ -24,203 +24,166 @@
 
 <body>
 
+    <!-- -------------fixed tow btn---------- -->
+    <div class="fixed_tow-btn">
+        <button class="btn">RUMUNA</button>
+        <button class="btn mt-2">TYT VENT</button>
+    </div>
+
+    <!-- ---------Navbar start -------------- -->
     <header>
+
         <nav class="navbar navbar-expand-lg position-absolute w-100 top-0 fixed-top px-lg-5 py-lg-3">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="#"><Span class="logo">TRAVLING</Span> wrold</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Country
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Bangladesh</a></li>
-                                <li><a class="dropdown-item" href="#">India</a></li>
-                                <li><a class="dropdown-item" href="#">Sir Lanka</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+            <a class="navbar-brand" href="#"> <img src="assent/Background_image/logo.png" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Therapists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Appointments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Full Menu
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Body</a></li>
+                            <li><a class="dropdown-item" href="#">Leg</a></li>
+                            <li><a class="dropdown-item" href="#">Head</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
             </div>
         </nav>
     </header>
     <!-- ---------Navbar end -------------- -->
-    <div id="main_div" class="main_div">
-        <!-- ------Home display image start ---------- -->
-        <div id="divImage"
-            class="w-100 h-100 position-relative d-flex justify-content-center align-items-center img-gradient">
 
-            <img class="w-100 h-100" loading="lazy" src="https://wallpaperaccess.com/full/1386038.jpg" alt="">
+    <!-- ------Home slider image start ---------- -->
+    <div id="main_div" class="main_div pb-5">
 
-            <main class="Text_container position-absolute">
-
-                <section class="animation ">
-                    <div class="first">
-                        <div className='animation_p'>Travel makes people's </div>
-                    </div>
-                    <div class="second">
-                        <div className='animation_p'>lives beautiful and</div>
-                    </div>
-                    <div class="third">
-                        <div className='animation_p'>inspires them to live</div>
-                    </div>
-
-                </section>
-
-            </main>
-
-        </div>
-        <!-- ------Home display image end ---------- -->
-        <!-- ---------------- image scrolling div start-------------- -->
-        <div class="scroll children_div ">
-            <swiper-container id="swiper_container" class="mySwiper" pagination="true" pagination-clickable="true"
-                slides-per-view="4" space-between="30" centered-slides="true">
-
-
-
-            </swiper-container>
-        </div>
-        <!-- ---------------- image scrolling div end-------------- -->
-    </div>
-    <!-- ----------servecess sectins --------------- -->
-
-    <div class="serveces pb-5">
-
-        <h1 class="pb-4 text-white text-center cetagory_text">Our Services Category</h1>
-        <div class="row container-fluid">
-
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-12">
-                <a class="card1" href="#">
-                    <div class="font_awasome">
-                        <i class="fa-solid fa-plane"></i>
-                    </div>
-                    <h3>Plances Serveces</h3>
-                    <p class="small py-1">We will be exploring the beautiful city of Traveling world. Our tour guide
-                        will
-                        provide and architecture</p>
-                    <div class="go-corner" href="#">
-                        <div class="go-arrow">
-                            →
-                        </div>
-                    </div>
-                </a>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-12">
-                <a class="card1" href="#">
-                    <div class="font_awasome">
-                        <i class="fa-solid fa-bus"></i>
-                    </div>
-                    <h3>Bus Serveces</h3>
-                    <p class="small py-1">Our bus will then take us to the scenic traveling world, where you can enjoy a
-                        peaceful stroll
-                        among the
-                        gardens.</p>
-                    <div class="go-corner" href="#">
-                        <div class="go-arrow">
-                            →
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <div class="inside_home row carousel-caption position-absolute mt-5">
+                        <div class="col-lg-6 col-md-6 col-sm-12 mt-md-5">
+                            <img src="assent/Background_image/student.png" class="imagediv" alt="Students">
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-12">
-                <a class="card1" href="#">
-                    <div class="font_awasome">
-                        <i class="fa-solid fa-bed"></i>
-                    </div>
-                    <h3>Hotel Serveces</h3>
-                    <p class="small py-1">Room service is a convenient option for guests who prefer to dine in the
-                        privacy of their rooms.</p>
-                    <div class="go-corner" href="#">
-                        <div class="go-arrow">
-                            →
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 col-12">
-                <a class="card1" href="#">
-                    <div class="font_awasome">
-                        <i class="fa-solid fa-notes-medical"></i>
-                    </div>
-                    <h3>Helth Serveces</h3>
-                    <p class="small py-1">We will be exploring the beautiful city of Traveling world. Our tour guide
-                        will
-                        provide and architecture</p>
-                    <div class="go-corner" href="#">
-                        <div class="go-arrow">
-                            →
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-
-        </div>
-
-    </div>
-    <!-- ----------servecess sectins end --------------- -->
-
-    <!-- -----------Explore our traveling services------------ -->
-    <section class=" Explore ">
-        <div class="row px-4 py-3">
-
-            <div class="card mb-3 g-2 ">
-                <div class="row g-0 d-flex align-items-center">
-                    <div class="col-12 col-md-6 ">
-                        <div class="">
-                            <img src="https://img.freepik.com/premium-photo/rear-view-asian-man-hat-with-suitcase-bag-backpack-walking-beach_9083-3246.jpg"
-                                class="img-fluid rounded-start w-100 h-50" style="height: 782px;">
-
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 ps-md-5">
-                        <div class="card-body ">
-                            <h1 class="display-6 fw-bolder">Exploring Our Traveling Servies</h1>
-                            <p class="mt-3">Travel content strives to produce consistent communication materials (blog
-                                posts, images, videos, etc ) that customers
-                                will find helpful while crawling through the web. Travel content does not promote a
-                                brand like traditional advertising.
-                            </p>
-                            <p class="">100,000+ High-Quality Servies
-
-                            </p>
-                            <div class="d-flex mt-5 gap-3 flex-wrap">
-                                <div>
-                                    <h3 class=" fw-bolder">300+</h3>
-                                    <p class="fs-6 text-secondary fw-semibold">Traveling Vish</p>
-                                </div>
-                                <div>
-                                    <h3 class="fw-bolder">6M+</h3>
-                                    <p class="fs-6 text-secondary fw-semibold">Members</p>
-                                </div>
-                                <div>
-                                    <h3 class="fw-bolder">2M+</h3>
-                                    <p class="fs-6 text-secondary fw-semibold">Positive ratings</p>
-                                </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
+                            <div class="bolock">
+                                <h1 class="text-start">The Yellow Therapist <br /> Students</h1>
+                                <h3 class="text-start">Get up to 50% OFF</h3>
+                                <p class="text-start">Are you a member of our partner student club </p>
+                                <a href="https://theyellowtherapist.com/therapists"> <button class="btn py-3 px-4 ">I
+                                        Need
+                                        Therapist</button></a>
                             </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="carousel-item " data-bs-interval="2000">
+                    <div class="inside_home row carousel-caption position-absolute mt-5">
+                        <div class="col-lg-6 col-md-6 col-sm-12 mt-md-5">
+                            <img src="assent/Background_image/everyone.png" class="imagediv" alt="everyone">
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center pt-4 pb-4 pt-md-0 pb-md-0">
+                            <div class="bolock">
+                                <h1 class="text-start">The Yellow Therapist <br /> Everyone</h1>
+                                <h3 class="text-start">Get up to 20% OFF</h3>
+                                <p class="text-start">Are you a member of our partner student club </p>
+                                <a href="https://theyellowtherapist.com/therapists"> <button class="btn py-3 px-4 ">I
+                                        Need
+                                        Therapist</button></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="inside_home row carousel-caption position-absolute mt-5">
+                        <div class="col-lg-6 col-md-6 col-sm-12 ">
+                            <img src="assent/Background_image/doctor.png" class="imagediv" alt="Doctor">
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center pt-4 pb-4 pt-md-0 pb-md-0">
+                            <div class="bolock">
+                                <h1 class="text-start">I'm a Therapist <br /> In Yellow </h1>
+                                <h3 class="text-start">Best Provite Serveies Today</h3>
+                                <p class="text-start">I'm a Therapist a member of our yellow therapist</p>
+                                <a href="https://theyellowtherapist.com/therapists"> <button class="btn py-3 px-4 ">I'm
+                                        a Therapist</button></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- ----sliding btn---- -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+    <!-- ------Home display image end ---------- -->
+
+    <!-- -----------Explore Discouse our The Yellow Therapis services------------ -->
+    <section class=" Explore mt-5 px-md-5 px-0 pb-5">
+
+        <div class="row px-md-5 px-0">
+
+            <div class="card ">
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-6">
+                        <div class="img d-flex justify-content-center">
+                            <img src="https://taskfzco.com/wp-content/uploads/2021/10/73195-business-partnership-contract-handshake.gif"
+                                class=" rounded-start"">
+                        </div>
+                    </div>
+                    <div class=" col-12 col-md-6 ">
+                            <div class=" card-body ">
+                                <h1 class=" display-6 fw-bolder">A bridge between...</h1>
+                            <p class="mt-3">A platform serving both of who seeks professional help for their mental
+                                well
+                                being and the professional therapists who
+                                are always ready to help. We're providing a smooth bridge between these two.
+                            </p>
+                            <p class="">10k+ High-Quality Servies.
+
+                            </p>
                             <button type="button"
-                                class="btn  text-white fw-semibold px-4 py-1  px-md-4 py-md-2 fs-5 mt-md-2">Explore
-                                More
+                                class="btn fw-semibold px-4 py-1  px-md-4 py-md-2 fs-5 mt-md-2">services
                             </button>
 
                         </div>
@@ -229,381 +192,339 @@
             </div>
 
         </div>
-    </section>
 
+        <div class="row px-4 ">
 
-    <!-- ----------FAVORITE TRAVEL MEMORIES ----------- -->
+            <div class="card">
+                <div class="row d-flex align-items-center">
 
-    <section class="section02">
-        <h2 class="text-center pt-5 pb-5">Capture your favorite <br> travel memories</h2>
-        <div class="discover pt-3">
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
-                space-between="30" free-mode="true">
-                <swiper-slide>
-                    <img class="w-100"
-                        src="https://www.realgap.co.uk/tpl/lib/img/private/media/copy-of-copy-of-thailand2019nw-may-002.jpeg"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide class="mt-5">
-                    <img class="w-100"
-                        src="https://img.freepik.com/free-photo/vertical-shot-woman-walking-down-stairs-with-handbag-beach_181624-15043.jpg?w=2000"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide class="">
-                    <img class="w-100"
-                        src="https://img.freepik.com/free-photo/fashion-portrait-young-woman-white-top-pants-vacation-sailing-thai-wooden-boat-travel-concept-female-khao-sok-national-park_343596-1243.jpg"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide class="mt-5">
-                    <img class="w-100"
-                        src="https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?3"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="w-100"
-                        src="https://www.realgap.co.uk/tpl/lib/img/private/media/copy-of-copy-of-thailand2019nw-may-002.jpeg"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide class="mt-5">
-                    <img class="w-100"
-                        src="https://imageio.forbes.com/blogs-images/johnnyjet/files/2017/10/traveling-alone.jpg?format=jpg&width=960"
-                        alt="">
-                </swiper-slide>
+                    <div class=" col-12 col-md-6 ">
+                        <div class="card-body ">
+                            <h1 class="display-6 fw-bolder">Those who need help...</h1>
+                            <p class="mt-3">Something ails? Hey, seeking help is the most humane thing we can do.
+                                It's not always easy on our own. This is the place
+                                where you get the proper help you need.
+                            </p>
+                            <p class="">15k Problem Solve.
 
-                <swiper-slide class="mt-5">
-                    <img class="w-100"
-                        src="https://img.freepik.com/free-photo/vertical-shot-woman-walking-down-stairs-with-handbag-beach_181624-15043.jpg?w=2000"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide class="">
-                    <img class="w-100"
-                        src="https://img.freepik.com/free-photo/fashion-portrait-young-woman-white-top-pants-vacation-sailing-thai-wooden-boat-travel-concept-female-khao-sok-national-park_343596-1243.jpg"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide class="mt-5">
-                    <img class="w-100"
-                        src="https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?3"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="w-100"
-                        src="https://www.realgap.co.uk/tpl/lib/img/private/media/copy-of-copy-of-thailand2019nw-may-002.jpeg"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide class="mt-5">
-                    <img class="w-100"
-                        src="https://img.freepik.com/free-photo/vertical-shot-woman-walking-down-stairs-with-handbag-beach_181624-15043.jpg?w=2000"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide class="">
-                    <img class="w-100"
-                        src="https://i.guim.co.uk/img/media/3e439e689d3800075bb00c412fb5c45c0fa8760a/0_228_3504_2101/master/3504.jpg?width=1200&quality=85&auto=format&fit=max&s=3caca2c9aaaa998591b161b957c5f2b2"
-                        alt="">
-                </swiper-slide>
-                <swiper-slide class="mt-5">
-                    <img class="w-100"
-                        src="https://i.insider.com/5f5a895be6ff30001d4e82b3?width=600&format=jpeg&auto=webp" alt="">
-                </swiper-slide>
+                            </p>
+                            <button type="button"
+                                class="btn   fw-semibold px-4 py-1  px-md-4 py-md-2 fs-5 mt-md-2">Details
+                                Problem
 
-            </swiper-container>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <div class="img d-flex justify-content-center">
+                            <img src="https://img.freepik.com/premium-vector/girl-student-thinks-about-difficult-task-exam-paper-confused-person-passing-academic-test_633472-1188.jpg?w=740"
+                                class="rounded-start"">
+
+                        </div>
+                    </div>
+                  
+            </div>
         </div>
+
+    </div>
+
+            <div class=" row px-4 ">
+                <div class=" card ">
+                    <div class=" row d-flex align-items-center">
+                            <div class="col-12 col-md-6 d-flex justify-content-center">
+                                <div class="img d-flex justify-content-center">
+                                    <img src="https://img.freepik.com/premium-vector/sad-man-sitting-chair-talking-female-psychologist-visit-psychiatrist-depression-treatment-illustration_277904-2924.jpg?w=826"
+                                        class="rounded-start"">
+    
+                                </div>
+                            </div>
+                            <div class=" col-12 col-md-6">
+                                    <div class="card-body">
+                                        <h1 class="display-6 fw-bolder">And those who can provide.</h1>
+                                        <p class="mt-3">Are you a professional therapist? We're providing a
+                                            structured platform to reach out to those who need your help. An
+                                            independant platform to work on your own schedule and demand.
+                                        </p>
+                                        <p class="">3k+ Member Success.
+
+                                        </p>
+                                        <button type="button"
+                                            class="btn  text-white fw-semibold px-4 py-1  px-md-4 py-md-2 fs-5 mt-md-2">Success
+                                            Story
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
     </section>
-    <!-- ----------FAVORITE TRAVEL MEMORIES  Emd----------- -->
 
-    <!-- -----------------client review ------------------ -->
-    <div class="review-client">
-        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
-            space-between="30" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
 
-            <swiper-slide>
-                <div class="container">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            <i class="fas fa-quote-right"></i>
-                            <span class="testimonial-text text-start">I recently took a tour with this travel company,
-                                and I have
-                                to say it was one of the best experiences I've ever had. The
-                                itinerary was well-planned and provided a great balance between sightseeing and
-                                downtime, and the accommodations were
-                                comfortable and conveniently located</span>
-                            <div class="testimonial-user">
-                                <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="user-img"
-                                    class="user-img">
-                                <div class="user-info">
-                                    <span class="user-name">Tuli</span>
-                                    <div class="user-job-details">
-                                        <span class="user-job pe-3">india</span>
-                                        <div class="line"></div>
-                                        <span class="user-post"> 2022</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </swiper-slide>
-            <swiper-slide>
-                <div class="container">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            <i class="fas fa-quote-right"></i>
-                            <span class="testimonial-text text-start">I recently took a tour with this travel company,
-                                and I have
-                                to say it was one of the best experiences I've ever had. The
-                                itinerary was well-planned and provided a great balance between sightseeing and
-                                downtime, and the accommodations were
-                                comfortable and conveniently located</span>
-                            <div class="testimonial-user">
-                                <img src="https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg"
-                                    alt="user-img" class="user-img">
-                                <div class="user-info">
-                                    <span class="user-name">Rasel Khan</span>
-                                    <div class="user-job-details">
-                                        <span class="user-job">Ban </span>
-                                        <div class="line"></div>
-                                        <span class="user-post"> 2023</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </swiper-slide>
-            <swiper-slide>
-                <div class="container">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            <i class="fas fa-quote-right"></i>
-                            <span class="testimonial-text text-start">I recently took a tour with this travel company,
-                                and I have
-                                to say it was one of the best experiences I've ever had. The
-                                itinerary was well-planned and provided a great balance between sightseeing and
-                                downtime, and the accommodations were
-                                comfortable and conveniently located</span>
-                            <div class="testimonial-user">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sWwaZ5nF5KXCDa_nQhR2hL2K3ZQWlZzbXlPlSwDt76o4eZeTBbfb6kGQBoFLZTZIHG8&usqp=CAU"
-                                    alt="user-img" class="user-img">
-                                <div class="user-info">
-                                    <span class="user-name">Amir</span>
-                                    <div class="user-job-details">
-                                        <span class="user-job pe-3">india</span>
-                                        <div class="line"></div>
-                                        <span class="user-post"> 2023</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </swiper-slide>
-            <swiper-slide>
-                <div class="container">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            <i class="fas fa-quote-right"></i>
-                            <span class="testimonial-text text-start">I recently took a tour with this travel company,
-                                and I have
-                                to say it was one of the best experiences I've ever had. The
-                                itinerary was well-planned and provided a great balance between sightseeing and
-                                downtime, and the accommodations were
-                                comfortable and conveniently located</span>
-                            <div class="testimonial-user">
-                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-                                    alt="user-img" class="user-img">
-                                <div class="user-info">
-                                    <span class="user-name">Ritu</span>
-                                    <div class="user-job-details">
-                                        <span class="user-job pe-3">Sri</span>
-                                        <div class="line"></div>
-                                        <span class="user-post"> 2020</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </swiper-slide>
-            <swiper-slide>
-                <div class="container">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            <i class="fas fa-quote-right"></i>
-                            <span class="testimonial-text text-start">I recently took a tour with this travel company,
-                                and I have
-                                to say it was one of the best experiences I've ever had. The
-                                itinerary was well-planned and provided a great balance between sightseeing and
-                                downtime, and the accommodations were
-                                comfortable and conveniently located</span>
-                            <div class="testimonial-user">
-                                <img src="https://media.istockphoto.com/id/1288634698/photo/beautiful-caucasian-teenager-smiling-happy-standing-at-the-city.jpg?s=170667a&w=0&k=20&c=fXAqV1uAAt78wOrP5QQrrVIrOYgJ8aBZqKwpexpDfSw="
-                                    alt="user-img" class="user-img">
-                                <div class="user-info">
-                                    <span class="user-name">Tinu</span>
-                                    <div class="user-job-details">
-                                        <span class="user-job pe-3">Pak</span>
-                                        <div class="line"></div>
-                                        <span class="user-post"> 2023</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </swiper-slide>
-            <swiper-slide>
-                <div class="container">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            <i class="fas fa-quote-right"></i>
-                            <span class="testimonial-text text-start">I recently took a tour with this travel company,
-                                and I have
-                                to say it was one of the best experiences I've ever had. The
-                                itinerary was well-planned and provided a great balance between sightseeing and
-                                downtime, and the accommodations were
-                                comfortable and conveniently located</span>
-                            <div class="testimonial-user">
-                                <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="user-img"
-                                    class="user-img">
-                                <div class="user-info">
-                                    <span class="user-name">Tuli</span>
-                                    <div class="user-job-details">
-                                        <span class="user-job pe-3">india</span>
-                                        <div class="line"></div>
-                                        <span class="user-post"> 2022</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </swiper-slide>
-            <swiper-slide>
-                <div class="container">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            <i class="fas fa-quote-right"></i>
-                            <span class="testimonial-text text-start">I recently took a tour with this travel company,
-                                and I have
-                                to say it was one of the best experiences I've ever had. The
-                                itinerary was well-planned and provided a great balance between sightseeing and
-                                downtime, and the accommodations were
-                                comfortable and conveniently located</span>
-                            <div class="testimonial-user">
-                                <img src="https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg"
-                                    alt="user-img" class="user-img">
-                                <div class="user-info">
-                                    <span class="user-name">Rasel Khan</span>
-                                    <div class="user-job-details">
-                                        <span class="user-job">Ban </span>
-                                        <div class="line"></div>
-                                        <span class="user-post"> 2023</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </swiper-slide>
-            <swiper-slide>
-                <h1 class="text-center text-white">Thank you</h1>
-            </swiper-slide>
-        </swiper-container>
-        <div class="support">
-            <a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://codepen.io/dev_loop/" target="_blank"><i class="fab fa-codepen"></i></a>
+    <!-- ----------------------------About TYT-------------------------- -->
+    <div class="About_TYT mt-5 ">
+        <div class="text mx-auto pb-5">
+            <div class="block">
+                <h1>About TYT</h1>
+                <p>The Yellow Therapist is an integrated platform that aspires to uplift the existing state of mental
+                    health
+                    services of
+                    Bangladesh. Removing as many obstacles as possible between the one who needs help and the one who
+                    can
+                    provide- is what
+                    we are striving for. In our platform, the therapists and the ones who need the therapy can easily
+                    get in
+                    touch with each
+                    other. At the end of the day, it's the connection that will bring positive outcomes. We are
+                    relentlessly
+                    working for a
+                    better tomorrow where no soul suffers, where every heart is at peace.</p>
+            </div>
         </div>
     </div>
 
-    <!-- ============== from section ============= -->
-    <section class="section03">
-        <div class="position-relative d-flex justify-content-center align-items-center from-gradient">
-            <div class="img"></div>
-            <div class="row position-absolute form-size ">
 
-                <div class="login-box pt-4">
-                    <h3 class="text-white text-center ">Supper Discount Offer <br />Fill Up the from</h3>
-                    <form>
-                        <div class="user-box">
-                            <input type="text" name="" required="">
-                            <label>Full Name</label>
-                        </div>
-                        <div class="user-box">
-                            <input type="text" name="" required="">
-                            <label>Phone Number</label>
-                        </div>
-                        <div class="user-box">
-                            <input type="text" name="" required="">
-                            <label>Your Email</label>
-                        </div>
-                        <div class="user-box">
-                            <input type="text" name="" required="">
-                            <label>Your Age (18+)</label>
-                        </div>
+    <!-- ---------------------- Questions maybe circling in your mind:  start  ---------------------- -->
 
-                        <div class="user-box">
-                            <input type="text" name="" required="">
-                            <label>Your Cuntry Name</label>
+    <div class="Questions">
+        <div class="text mx-auto pb-5">
+            <div class="block">
+                <h1 class="pb-4">Questions maybe circling in your mind:</h1>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                <span> 01.</span> Yellow therapist reminds me of yellow journalists, why yellow?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <p>As you could guess, we get that a lot. But we chose yellow because yellow is famously
+                                    the happiest color, yellow is the
+                                    symbol of happiness. So the therapists work here are yellow therapists in the best
+                                    possible way, far from yellow
+                                    journalists. So, no worries. Let's spread happiness.</p>
+                            </div>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <a href="#">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                Submit
-                            </a>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                <span> 02.</span> This web design makes me sad, why is it so dull? Or, I don't like the
+                                design. Or, did
+                                you not pay your web designer?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <p>We are really sorry that you felt that way. But to assure you, this is not our final
+                                    design. We tend to bring the
+                                    platform to the public as fast as possible, so we had no choice but to find
+                                    perfection in the imperfect, just for now.
+                                    And we are working relentlessly to make the platform better and better. Thanks for
+                                    being with us.</p>
+                            </div>
                         </div>
-                    </form>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                <span> 03.</span> Wait a minute, who are you people?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <div class="block">
+                                    <div class="div py-3">
+                                        <a href="">click hear</a>
+                                    </div>
+                                    <img src="https://images.theyellowtherapist.com/gifs/who_are_you.gif" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
-    </section>
-    <!-- ============== from section  end============= -->
-    <footer class="w-100 flex-shrink-0 pt-5 mt-3">
+
+    </div>
+
+
+    <!-- -----------------client review ------------------ -->
+    <div class="Client-review pb-5">
+        <h2 class="text-center py-5"> Our Yellow Therapist Client Review</h2>
+        <div class="flex justify-content-center align-items-center w-100">
+            <div id="carouselExampleDark"
+                class="carousel carousel-dark slide d-flex justify-content-center w-100 mx-auto"
+                data-bs-ride="carousel">
+
+                <div class="carousel-inner align-items-center justify-content-center w-50 align-items-center">
+                    <div class="carousel-item active justify-content-center" data-bs-interval="1500">
+                        <div class="card d-flex justify-content-center align-items-center py-5 px-3">
+                            <div class="block ">
+                                <div class="d-flex justify-content-center w-100 ">
+                                    <img class="w-25 d-flex justify-content-center rounded-circle"
+                                        src="https://media.istockphoto.com/id/1303829994/photo/unhappy-bearded-man-looking-disappointed-and-showing-a-little-bit-gesture-small-amount-or-low.jpg?b=1&s=170667a&w=0&k=20&c=YMiF2xL-r15v4HnKefwhkOGxcrubpcB0jCjAktmX6jY="
+                                        alt="">
+                                </div>
+                                <h5 class="text-center py-2">Mr. Rasel Khan</h5>
+                                <p class="px-md-5">You may think you're giving a good service and can guess what your
+                                    customers want,
+                                    but feedback gives you direct
+                                    customer insight into what they love and hate about the service you provide.
+                                    Positive feedback is great – it shows
+                                    customer satisfaction and acts as validation for what you do</p>
+                                <div class="mt-2 d-flex justify-content-end align-items-center px-md-5">
+                                    <h5 class="review-stat pt-2 px-2">5.0</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1500">
+                        <div class="card d-flex justify-content-center align-items-center py-5 px-3">
+                            <div class="block ">
+                                <div class="d-flex justify-content-center w-100 ">
+                                    <img class="w-25 h-25 d-flex justify-content-center rounded-circle"
+                                        src="https://media.licdn.com/dms/image/D5603AQGiimcnmULENQ/profile-displayphoto-shrink_400_400/0/1671906816948?e=1684972800&v=beta&t=_celD7BB6CAYWakqzCnEGkUYcZ-3gttYr82whRgCI9A"
+                                        alt="">
+                                </div>
+                                <h5 class="text-center py-2">Mr. Rasel Khan</h5>
+                                <p class="px-md-5">You may think you're giving a good service and can guess what your
+                                    customers want,
+                                    but feedback gives you direct
+                                    customer insight into what they love and hate about the service you provide.
+                                    Positive feedback is great – it shows
+                                    customer satisfaction and acts as validation for what you do</p>
+                                <div class="mt-2 d-flex justify-content-end align-items-center px-md-5">
+                                    <h5 class="review-stat pt-2 px-2">4.0</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star "></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <div class="card d-flex justify-content-center align-items-center py-5 px-3">
+                            <div class="block ">
+                                <div class="d-flex justify-content-center w-100 ">
+                                    <img class="w-25 h-25 d-flex justify-content-center rounded-circle"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDPBIJFv_QMpwo3-pxvVMpR6dHTDp3ybBuX_BUo660xvMUNxfIPtpyhB0ZnKFDAEmrVHE&usqp=CAU"
+                                        alt="">
+                                </div>
+                                <h5 class=" text-center py-2">Mr. Rasel Khan</h5>
+                                <p class="px-md-5">You may think you're giving a good service and can guess what
+                                    your
+                                    customers want,
+                                    but feedback gives you direct
+                                    customer insight into what they love and hate about the service you provide.
+                                    Positive feedback is great – it shows
+                                    customer satisfaction and acts as validation for what you do</p>
+                                <div class="mt-2 d-flex justify-content-end align-items-center px-md-5">
+                                    <h5 class="review-stat pt-2 px-2">3.0</h5>
+                                    <div class="small-ratings">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star "></i>
+                                        <i class="fa fa-star "></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ----------payment with wide range of checkout choices Start----------- -->
+    <div class="payment mt-5">
+        <div class="flex justify-content-center align-items-center payment_img">
+            <div class="block">
+                <h3 class="text-center">Secure and easy payment with wide range of checkout choices</h3>
+                <img src="https://images.theyellowtherapist.com/logos/FOOTER-02.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------payment with wide range of checkout choices  End----------- -->
+    <!-- ============== Footer start============= -->
+    <footer class=" flex-shrink-0 pt-5 mt-3 card">
         <div class="container ">
             <div class="row gy-4 gx-5">
                 <div class="col-lg-4 col-md-6">
-                    <h5 class="h1 text-white"><a class="navbar-brand" href="#"><Span class="logo">TRAVLING</Span>
-                            wrold</a></h5>
-                    <p class="small text-muted">Welcome to our travel tour website! We specialize in providing unique
+                    <a class="navbar-brand" href="#"> <img src="assent/Background_image/logo.png" alt=""> </a>
+                    <p class="small text-muted">Welcome to our yellow therapist website! We specialize in providing
+                        unique
                         and exciting tours that allow you to experience
-                        the world's most amazing destinations in a way that suits your interests and travel style.</p>
+                        the world's most amazing destinations in a way that suits your interests and travel style.
+                    </p>
 
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <h5 class="text-white mb-3">Serves offer</h5>
+                    <h5 class=" mb-3">Therapists offer</h5>
                     <ul class="list-unstyled text-muted">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Get started</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <h5 class="text-white mb-3">Discount offer</h5>
+                    <h5 class=" mb-3">Discount offer</h5>
                     <ul class="list-unstyled text-muted">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">Today discount</a></li>
+                        <li><a href="#">Yearly discount</a></li>
+                        <li><a href="#">Get discount</a></li>
                         <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h5 class="text-white mb-3">Happy Clients Token</h5>
-                    <p class="small text-muted">We take great pride in delivering exceptional service to our clients and
+                    <h5 class=" mb-3">Happy Clients Token</h5>
+                    <p class="small text-muted">We take great pride in delivering exceptional service to our clients
+                        and
                         are delighted to hear that we have exceeded
                         their expectations.</p>
                     <form action="#">
                         <div class="input-group mb-3">
-                            <input class="form-control" type="text" placeholder="Recipient's token"
+                            <input class="form-control bg-white" type="text" placeholder="Recipient's token"
                                 aria-label="Recipient's username" aria-describedby="button-addon2">
                             <button class="btn btn-primary" id="button-addon2" type="button"><i
                                     class="fas fa-paper-plane"></i></button>
@@ -612,8 +533,9 @@
                 </div>
             </div>
         </div>
-        <p class="small text-muted mb-0 text-center copyright">&copy; Copyrights. All rights reserved. <a
-                class="text-primary" href="#">Traveling world.com</a></p>
+        <p class="small text-muted mb-0 text-center copyright py-3">&copy; Copyrights. AThe Yellow Therapist | All
+            rights
+            reserved<a class="text-primary" href="#"> | Privacy Policy | Contact us</a></p>
     </footer>
 
 </body>

@@ -1,5 +1,7 @@
+$textColor: #FFC000;
+
 footer {
-    background: #212529;
+    background: #ffffffe7;
 
     a {
         color: inherit;
@@ -7,14 +9,7 @@ footer {
         transition: all 0.3s;
     }
 
-    .logo {
-        color: #33ebd5;
-        font-weight: 900;
-        // font-family: 'Anek Gujarati', sans-serif;
-        font-size: 1.5rem;
-        font-family: 'Righteous', cursive;
-        // font-family: 'Roboto Condensed', sans-serif;
-    }
+
 
     a:hover,
     a:focus {
@@ -22,7 +17,7 @@ footer {
     }
 
     .form-control {
-        background: #212529;
+        background: #ffffff;
         border-color: #545454;
     }
 
@@ -32,6 +27,8 @@ footer {
 
     h5 {
         font-family: 'Righteous', cursive;
+        color: $textColor;
+        font-weight: 900;
     }
 
     .copyright {

@@ -1,3 +1,5 @@
+$textColor: #FFC000;
+
 * {
     margin: 0;
     padding: 0;
@@ -5,72 +7,104 @@
 
 }
 
+// --------fixed tow btn----------
+.fixed_tow-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 50;
+
+
+
+    .btn {
+        padding: 10px 15px;
+        background-color: #ffffff1f;
+        color: $textColor;
+        border: 2px solid $textColor;
+        font-weight: 600;
+        display: block;
+
+
+    }
+}
+
+// -----------manin sliding home page body---------------
 .main_div {
     width: 100vw;
-    height: 98vh;
+    height: 96vh;
     display: flex;
     position: relative;
-}
+    border-bottom: 1px solid $textColor;
 
-.main_div .children_div {
-    width: 100vw;
-    height: 30vh;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.203);
-    bottom: 1rem;
-    padding: 0.5rem 0;
-}
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        color: #f4f4f4;
+        background-color: #0000001c;
+        height: 60px;
+    }
 
-#tour_text {
-    position: relative;
-    color: #ffffff;
-    padding-top: 5rem;
-    margin-top: 5rem;
-    z-index: 20;
-}
+    .carousel-control-next-icon:hover {
+        color: #f4efef;
+        background-color: #c8c8c8;
+    }
 
-// ----image overlay background ------
-.img-gradient:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100% !important;
-    height: 100%;
-    display: inline-block;
-    background: linear-gradient(to bottom, rgba(1, 25, 39, 0.635) 50%, rgba(21, 20, 20, 0.932) 100%);
-    /* W3C */
+    .carousel-control-prev-icon:hover {
+        color: #f4efef;
+        background-color: #c8c8c8;
+    }
 
-}
+    .carousel-inner {
+        height: 96vh !important;
+        width: 100vw !important;
+    }
 
-.img-gradient img {
-    display: block;
-    object-fit: cover;
+    .imagediv {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        top: 60px;
+
+        h1 {
+            color: $textColor;
+        }
+
+        h3 {
+            color: #141414;
+        }
+
+        p {
+            color: #949494;
+        }
+
+        .btn {
+            background-color: $textColor;
+            color: #fff1f1;
+            font-weight: 600;
+            font-size: 18px;
+            float: left;
+        }
+    }
 }
 
 // ---------navbar Design ---------
 
 .navbar {
-    background-color: #00000007;
-    position: relative;
-    z-index: 30;
+    background-color: #fff;
+    position: fixed !important;
+    top: 0;
+    z-index: 70;
+    border-bottom: 1px solid #ebe8e872;
 
     .container-fluid {
 
 
 
         a {
-            color: #fff;
+            color: $textColor;
             font-size: 1rem;
-
-            .logo {
-                color: #33ebd5;
-                font-weight: 900;
-                // font-family: 'Anek Gujarati', sans-serif;
-                font-size: 1.5rem;
-                font-family: 'Righteous', cursive;
-                // font-family: 'Roboto Condensed', sans-serif;
-            }
         }
 
         .fa-bars {
@@ -91,25 +125,25 @@
 
 
                 a {
-                    color: #ffffff;
+                    color: $textColor;
                     font-size: 1rem;
-                    font-weight: 500;
+                    font-weight: 600;
                     font-family: 'Poppins', sans-serif;
 
 
                     &:hover {
                         content: "";
-                        color: #33ebd5;
+                        color: #3d3c3c;
                     }
 
                 }
 
 
                 .dropdown-menu {
-                    background-color: #00000079;
+                    background-color: #00000037;
 
                     li :hover {
-                        background-color: #0303038a;
+                        background-color: #d1b5008a;
                     }
                 }
 
@@ -124,11 +158,11 @@
 
     .navbar {
         padding-bottom: 1.5rem !important;
-        background-color: #0000001b;
+        background-color: #ffffff;
     }
 
     .navbar-collapse {
-        background-color: #00000079;
+        background-color: #ffffff;
         padding: 1rem 0;
         position: relative;
         z-index: 40 !important;
@@ -141,5 +175,25 @@
         font-size: 1.5rem !important;
         // font-family: 'PT Sans Narrow', sans-serif;
         // font-family: 'Poppins', sans-serif;
+    }
+
+    .fixed_tow-btn {
+        position: fixed;
+        bottom: 100px !important;
+        right: 20px;
+        z-index: 50;
+
+
+
+        .btn {
+            padding: 10px 15px;
+            background-color: #ffffff1f;
+            color: $textColor;
+            border: 2px solid $textColor;
+            font-weight: 600;
+            display: block;
+
+
+        }
     }
 }

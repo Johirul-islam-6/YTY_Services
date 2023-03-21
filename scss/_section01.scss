@@ -1,0 +1,156 @@
+$textColor: #FFC000;
+
+.Explore {
+    width: 100vw;
+    height: auto;
+    border: unset !important;
+
+    .row {
+
+        .card {
+            border: unset !important;
+        }
+
+        h1 {
+            color: $textColor;
+        }
+
+        .btn {
+            background-color: $textColor;
+        }
+
+        .img {
+            width: 500px;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+
+    }
+
+
+}
+
+@media screen and (max-width : 700px) and (min-width: 200px) {
+    .img {
+        width: 300px !important;
+
+        img {
+            width: 300px !important;
+            object-fit: cover;
+        }
+    }
+}
+
+// -------------Payment------------
+
+.payment {
+    width: 100vw;
+    padding: 10px 0;
+
+    .payment_img {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        margin-top: 10px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width : 700px) and (min-width : 200px) {
+    .payment {
+        width: 100vw;
+        padding: 5px 0 !important;
+    }
+
+    .payment_img {
+        width: 100vw !important;
+        margin: 0 auto;
+    }
+
+    .carousel-inner {
+        width: 100vw !important;
+        margin: 0 15px;
+    }
+
+}
+
+// ---------------- About TYT-------------
+.About_TYT {
+    .text {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        color: $textColor;
+        padding: 10px 0;
+    }
+}
+
+// ------------Questions-------
+.Questions {
+    .text {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .accordion-item {
+
+        .accordion-button {
+            color: #0b0b0b !important;
+            font-weight: 600;
+            font-style: italic;
+
+            span {
+                color: #ed7b01;
+                font-size: 20px;
+            }
+        }
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        font-style: initial;
+    }
+
+    h1 {
+        color: $textColor;
+    }
+}
+
+// ----------Client Review----------
+.Client-review {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+
+    .card {
+        border-radius: 60px 0 60px 0;
+        padding: 20px 0;
+    }
+
+    h2 {
+        color: $textColor;
+        font-weight: 600;
+    }
+
+    .rating-color {
+        color: #fbc634 !important;
+    }
+
+
+}
